@@ -221,23 +221,23 @@ Run the application on:
 
 ### Splash Screen
 
-![Splash Screen](splashscreen.png)
+![Splash Screen](screenshort/splashscreen.png)
 
 ### Home Screen
 
-![Home Screen](homescreen.png)
+![Home Screen](screenshort/homescreen.png)
 
 ### Person Screen
 
-![Person Screen](personscreen.png)
+![Person Screen](screenshort/personscreen.png)
 
 ### Person Screen
 
-![Person Details](persondetails.png)
+![Person Details](screenshort/persondetails.png)
 
 ### Person Screen
 
-![Items Screen](itemsscreen.png)
+![Items Screen](screenshort/itemsscreen.png)
 
 ---
 
