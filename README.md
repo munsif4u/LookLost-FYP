@@ -217,7 +217,27 @@ Run the application on:
 
 # Screenshots
 
-> Screenshots will be added soon.
+## 📱 Application Screenshots
+
+### Splash Screen
+
+![Splash Screen](splashscreen.png)
+
+### Home Screen
+
+![Home Screen](homescreen.png)
+
+### Person Screen
+
+![Person Screen](personscreen.png)
+
+### Person Screen
+
+![Person Details](persondetails.png)
+
+### Person Screen
+
+![Items Screen](itemsscreen.png)
 
 ---
 
