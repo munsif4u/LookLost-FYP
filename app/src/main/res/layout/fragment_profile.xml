@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="@color/md_theme_light_onPrimary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <!-- Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- User Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_imageview"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/male_avatar"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Munsif Khan"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="abc@gmail.com"
+                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                    android:textColor="?android:attr/textColorSecondary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Actions -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:text="Actions"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myitems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/item_icon"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:paddingHorizontal="8dp"
+            android:text="My Items"
+            android:textSize="18sp" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="12dp"
+            app:dividerColor="#CCCCCC" />
+
+        <TextView
+            android:id="@+id/mypersons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/person_icon2"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:paddingHorizontal="8dp"
+            android:text="My Persons"
+            android:textSize="18sp" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="12dp"
+            app:dividerColor="#CCCCCC" />
+
+        <TextView
+            android:id="@+id/shareapplication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_person_search_24"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:paddingHorizontal="8dp"
+            android:text="Share Application"
+            android:textSize="18sp" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="12dp"
+            app:dividerColor="#CCCCCC" />
+
+        <TextView
+            android:id="@+id/helpbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_help_24"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:paddingHorizontal="8dp"
+            android:text="Help"
+            android:textSize="18sp" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="12dp"
+            app:dividerColor="#CCCCCC" />
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_login_24"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:paddingHorizontal="8dp"
+            android:text="Logout"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:tint="#FF0000" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="12dp"
+            app:dividerColor="#CCCCCC" />
+
+        <!-- Spacer -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Version -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Version : FUUAST 1.0.0"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<!--
+   <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+<ImageView
+android:layout_width="match_parent"
+android:layout_height="194dp"
+app:srcCompat="@drawable/watch"
+android:layout_marginTop="10dp"
+android:scaleType="centerCrop"
+android:contentDescription="User Profile" />
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp">-->
+
+<!--<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Munsif Khan"
+    android:textAppearance="?attr/textAppearanceTitleMedium"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:text="Male"
+    android:textAppearance="?attr/textAppearanceBodyMedium"
+    android:textColor="?android:attr/textColorSecondary"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="abc@gmail.com"
+    android:textAppearance="?attr/textAppearanceBodyMedium"
+    android:textColor="?android:attr/textColorSecondary"
+    />
+
+</LinearLayout>
+
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_margin="8dp"
+android:orientation="horizontal">
+<com.google.android.material.button.MaterialButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:text="Edit"
+    android:drawableLeft="@drawable/baseline_edit_24"
+    style="?attr/borderlessButtonStyle" />
+</LinearLayout>
+
+    </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>-->

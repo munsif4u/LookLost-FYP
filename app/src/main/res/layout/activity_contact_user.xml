@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".ContactUser">
+
+    <!-- Header -->
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="20dp"
+        android:text="Contact User"
+        android:textColor="#212121"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Contact Options -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp">
+
+        <!-- WhatsApp -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <TextView
+                android:id="@+id/whatsappBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp"
+                android:drawableStart="@drawable/wa_icon"
+                android:drawablePadding="16dp"
+                android:text="WhatsApp"
+                android:textColor="#25D366"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:drawableTint="#25D366" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Dialer -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <TextView
+                android:id="@+id/dialerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp"
+                android:drawableStart="@drawable/call_icon"
+                android:drawablePadding="16dp"
+                android:text="Dialer"
+                android:textColor="#2196F3"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:drawableTint="#2196F3" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- SMS -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <TextView
+                android:id="@+id/smsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp"
+                android:drawableStart="@drawable/sms_icon"
+                android:drawablePadding="16dp"
+                android:text="SMS"
+                android:textColor="#009688"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:drawableTint="#009688" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Chat -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <TextView
+                android:id="@+id/chatBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp"
+                android:drawableStart="@drawable/chat_icon"
+                android:drawablePadding="16dp"
+                android:text="Chat"
+                android:textColor="#212121"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:drawableTint="#212121" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "307348990910",
+    "project_id": "looklost-25d72d20",
+    "storage_bucket": "looklost-25d72d20.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307348990910:android:22348bc48297b19dbea7ef",
+        "android_client_info": {
+          "package_name": "com.example.looklost"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe5IPftA8R0LzwbBjxKFtq_gyZvmrQdnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

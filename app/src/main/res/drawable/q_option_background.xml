@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#F5F5F5" /> <!-- background color of the option -->
+    <corners android:radius="8dp" /> <!-- radius of the corners -->
+    <stroke
+        android:width="2dp"
+        android:color="#cccccc"/>
+    <padding
+        android:top="8dp"
+        android:bottom="8dp"
+        android:left="16dp"
+        android:right="16dp" /> <!-- padding of the option -->
+</shape>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="category_list" >
+        <item>Accessories </item>
+        <item>Bags</item>
+        <item>Cards</item>
+        <item>Documents</item>
+        <item>Electronic</item>
+        <item>Home Items</item>
+        <item>Instruments</item>
+        <item>Jewellery</item>
+        <item>Keys</item>
+        <item>Licenses</item>
+        <item>Laptops</item>
+        <item>Mobile Phones</item>
+        <item>Shoes</item>
+        <item>Watches</item>
+        <item>Wallet</item>
+    </array>
+
+    <array name="category_list_person" >
+        <item>Infants and Toddlers</item>
+        <item>Children</item>
+        <item>Teenagers</item>
+        <item>Adult Male</item>
+        <item>Adult Female</item>
+        <item>Senior Men</item>
+        <item>Senior Women</item>
+    </array>
+</resources>
