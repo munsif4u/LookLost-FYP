@@ -122,7 +122,7 @@ The system allows users to upload lost or found items, report missing or found p
 
 # Project Structure
 
----
+```
 LookLost
 │
 ├── app
@@ -147,7 +147,7 @@ LookLost
 ├── build.gradle
 ├── settings.gradle
 └── README.md
----
+```
 
 ---
 # Firebase Integration
